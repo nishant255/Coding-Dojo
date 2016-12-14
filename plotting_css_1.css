@@ -1,17 +1,25 @@
 /*CSS reset settings here*/
+/*#container{
+  background-color: grey;
+  overflow: hidden;
+  height: auto;
+}*/
 *{
  margin: 0px;
  padding: 0px;
+ /*background-color: black;*/
 }
 #wrapper{
  width: 950px;
  background-color: silver;
  margin: 0px auto;
+ padding-top: 20px;
 }
 #header{
  height: 150px;
  background-color: green;
  margin: 20px;
+ margin-top: 0px;
  display: grid;
  position: static;
 }
@@ -46,4 +54,6 @@
 }
 .clear{
 	clear: both;
+  overflow: hidden;
+  height: auto;
 }
