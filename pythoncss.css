@@ -1,0 +1,231 @@
+
+.wrapper{
+  width: 970px;
+  background-color: rgb(38, 81, 117);
+
+}
+
+/*Header CSS Starts Here*/
+
+.header{
+  display: inline;
+  width: 100%;
+}
+
+.logo{
+  /*flex-direction: column;*/
+  width: 300px;
+  display: inline;
+  margin-bottom: 0px;
+
+}
+
+.header img{
+  margin: 10px;
+}
+
+.header p{
+  color: white;
+}
+
+.header p a:link{
+  color: yellow;
+}
+
+.searchbox{
+  float: right;
+  margin-right: 20px;
+}
+
+.searchbox a:link{
+  text-decoration: none;
+  color: yellow;
+  float: right;
+}
+
+.searchbox a:visited{
+  text-decoration: none;
+  color: yellow;
+}
+
+.searchbox p{
+  font-size: 10px;
+  text-align: right;
+  padding-bottom: 0px;
+}
+
+
+.searchform{
+  background-color: rgb(68, 68, 68);
+  padding: 15px 30px 15px 30px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 0px #000000;
+  flex-direction: column-reverse;
+}
+
+.gobutton{
+  background-color: rgb(38, 81, 117);
+  color: white;
+  font-size: 10px;
+  border-radius: 5px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+/*Header CSS Ends Here*/
+/*Menu CSS Starts Here*/
+
+.menu{
+  background-color: rgb(73, 127, 171);
+  /*padding: 0px 30px 0px 30px;*/
+  margin-left: 60px;
+  margin-right: 40px;
+  margin-top: 0px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 0px #000000;
+}
+
+.menu a{
+  text-decoration: none;
+  color: white;
+  padding: 2px 5px 2px 5px;
+  font-family: monospace;
+  font-size: 22px;
+}
+
+.menu p{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  word-spacing: 15px;
+}
+/*Menu CSS Ends Here*/
+/*Upperbody CSS Here*/
+
+.upperbody{
+  display: inline-block;
+  text-align: center;
+  height: auto;
+}
+
+.upperls{
+  width: 30%;
+  /*flex-direction: column;*/
+  float: left;
+  padding-top: 20px;
+  height: auto;
+}
+
+.upperls a{
+  color: white;
+}
+
+.upperls ul{
+  padding-left: 0px;
+  color: white;
+
+}
+
+.upperls ul li{
+  list-style-position: inside;
+  margin: 7px 0px;
+
+}
+
+.upperrs{
+  width: 70%;
+  /*flex-direction: column;*/
+  float: right;
+}
+
+.upperrs p{
+  color: yellow;
+  font-style: italic;
+}
+
+.upperrs p span{
+  color: white;
+  font-style: normal;
+  font-size: 12px;
+}
+
+/*Upperbody CSS Ends Here*/
+
+.lowerbody{
+  margin: 0px;
+  background-color: white;
+  text-align: center;
+  display: inline-block;
+}
+
+.lowerls{
+  padding: 5px 5px 5px 75px;
+  width: 41%;
+  float: left;
+}
+
+
+.lowerls h4{
+  border-top: 3px solid blue;
+  padding-top: 5px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.lowerls p{
+  padding-top: 0px;
+  padding-left: 15px;
+  padding-right: 50px;
+  margin-top: 3px;
+}
+
+.lowerls ul{
+  padding-left: 50px;
+  padding-right: 80px;
+}
+
+.lowerls li{
+  color: blue;
+}
+
+.lowerrs{
+  padding: 5px 75px 5px 5px;
+  width: 41%;
+  float: right;
+}
+
+.lowerrs h4{
+  border-top: 3px solid blue;
+  padding-top: 5px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.lowerrs p{
+  padding-top: 0px;
+  padding-left: 15px;
+  padding-right: 50px;
+  margin-top: 3px;
+}
+
+.lowerrs ul{
+  padding-left: 50px;
+  padding-right: 80px;
+}
+
+.lowerrs li{
+  color: blue;
+}
+
+.footer{
+  margin: 0px;
+  padding-top: 20px;
+  padding-bottom: 1px;
+  text-align: center;
+  color: white;
+  /*background: linear-gradient(white, blue);*/
+}
+
+.footer p span{
+  font-size: 12px;
+}
