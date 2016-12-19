@@ -1,0 +1,299 @@
+* {
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+  font-family:sans-serif;
+}
+
+/*start header css*/
+
+.header {
+  width: 960px;
+  height: 90px;
+  display: block;
+}
+
+.header .headspan {
+  color: blue;
+}
+
+.header h1 {
+  display: inline-block;
+  padding: 18px 0px;
+  font-size: 55px;
+  vertical-align: top;
+  color: darkgrey;
+  font-family: sans-serif;
+  font-weight: normal;
+
+}
+.header img {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+.subheader {
+  width: 960px;
+  height: 60px;
+  background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%);
+  margin: 0;
+  margin-top: -10px;
+}
+
+.subheader h2 {
+  color: white;
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: 30px;
+  margin-left: 30px;
+  padding-top: 17px;
+}
+
+/*end header css*/
+
+/*start body css*/
+
+.mainbody {
+  width: 960px;
+  height: auto;
+
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+/*start sidepanel css*/
+
+.mainbody .leftnav{
+  width: 200px;
+  height: auto;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  text-align: left;
+}
+
+.mainbody .leftnav h4{
+  display: inline-block;
+  text-align: left;
+  padding: 10px 5px 5px 5px;
+  font-family: sans-serif;
+}
+
+.mainbody .leftnav .navspan{
+  color: red;
+}
+
+.mainbody .leftnav .bluespan{
+  color: blue;
+}
+
+.mainbody .leftnav p{
+  display: inline-block;
+  text-align: left;
+  padding: 10px 5px 5px 5px;
+  font-size: 13px;
+  font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.mainbody .leftnav button{
+  display: inline-block;
+  width: 190px;
+  padding: 10px 0px;
+  margin: 3px 3px;
+  border-radius: 5px;
+  background-color: red;
+}
+
+.mainbody .leftnav .videobut {
+	background-color: #509BDA;
+	color: white;
+}
+
+.mainbody .leftnav .morebut {
+	background-color: orange;
+	color: white;
+}
+
+.mainbody .leftnav .adnav .lbutton {
+	background-color: lightblue;
+	color: white;
+}
+
+.mainbody .leftnav .verticalline {
+	display: block;
+	width: 200px;
+	height: 1px;
+	background-color: grey;
+	margin: 20px 0px;
+
+}
+
+.mainbody .leftnav .adnav {
+	background-image: url(ad_background.png);
+  width: 200px;
+  height: 310px;
+  display: inline-block;
+	margin: 0px;
+	padding-top: 15px;
+	text-align: center;
+}
+
+.mainbody .leftnav .adnav h2{
+  display: inline-block;
+	color: white;
+	margin: 0px;
+}
+
+.mainbody .leftnav .adnav img{
+	width: 100px;
+	height: 150px;
+
+}
+
+/*end sidepanel css*/
+
+/*start main content css*/
+
+.main_content {
+	float: right;
+  width: 720px;
+  height: auto;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.main_content .headcontent {
+	display: block;
+	width: 720px;
+	height: 60px;
+	border-bottom: 1px solid grey;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.main_content .headcontent .homelogo {
+	display: inline-block;
+}
+.main_content .headcontent .homelogo img{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-top: 5px;
+}
+
+.main_content .headcontent .homelogo p {
+		display: inline-block;
+		color: #509BDA;
+		font-size: 15px;
+}
+
+.main_content .headcontent .phone {
+	display: inline-block;
+	float: right;
+
+}
+
+.main_content .headcontent .phone img{
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	margin: 5px;
+}
+
+.main_content .headcontent .phone .contact {
+	float: right;
+}
+
+.main_content .headcontent .phone .contact h1{
+	color: #0CB0DB;
+	padding-right: 20px;
+}
+
+.main_content .headcontent .phone .contact p{
+	font-size: 10px;
+	color: grey;
+
+
+}
+
+.main_content .midcontent {
+	display: block;
+	width: 720px;
+	height: 430px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.main_content .midcontent h4 {
+	color: #509BDA;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.main_content .midcontent p {
+	font-size: 15px;
+}
+
+.main_content .midcontent ul {
+	padding-left: 20px;
+	font-size: 15px;
+}
+
+.main_content .midcontent span {
+	color: #0CB0DB;
+}
+
+.main_content .midcontent ol {
+	padding-left: 20px;
+	padding-top: 5px;
+	font-size: 15px;
+}
+
+.main_content .midcontent img {
+	width: 300px;
+	margin-left: 200px;
+}
+
+.main_content .lowercontent {
+	width: 710px;
+	height: 95px;
+	border-top: 5px solid blue;
+	border-left: 5px solid blue;
+	border-right: 5px solid blue;
+	display: block;
+}
+
+.main_content .lowercontent img{
+	height: 95px;
+	display: inline-block;
+}
+
+.main_content .lowercontent .data {
+	display: inline-block;
+	width: 600px;
+	float: right;
+}
+.main_content .lowercontent h4 {
+	color: #509BDA;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	display: inline-block;
+}
+
+.main_content .lowercontent p {
+	font-size: 15px;
+	display: inline-block;
+}
+
+.main_content .lowercontent .data span {
+	color: #0CB0DB;
+}
+/*end main_content css*/
+
+/*end body css */
