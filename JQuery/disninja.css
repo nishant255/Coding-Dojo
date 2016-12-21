@@ -1,0 +1,24 @@
+* {
+  text-align: center;
+}
+.image {
+  width: 1280px;
+  height: 425px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.image img {
+  border: 5px solid black;
+  background-color: red;
+}
+
+button {
+  background-color: green;
+  color: yellow;
+  font-size: 40px;
+  font-family: cursive;
+  letter-spacing: 2px;
+  padding: 10px;
+}
