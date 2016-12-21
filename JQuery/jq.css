@@ -1,0 +1,15 @@
+.wrapper div {
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
+}
+
+.newclass {
+  background-color: blue;
+  color: white;
+}
+
+.hclass {
+  background-color: red;
+  color: yellow;
+}
