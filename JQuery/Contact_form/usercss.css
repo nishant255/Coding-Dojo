@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    margin: 10px;
+}
+
+h2 {
+    margin: 10px;
+    border-bottom: 2px solid black;
+}
+
+table {
+    margin: 20px;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 10px 5px;
+}
+
+td {
+    padding: 5px;
+}
+
+tr {
+    border: solid thin;
+}
+
+form {
+    text-align: right;
+    margin: 20px;
+}
+
+input {
+    margin: 10px;
+}
+
+.adduser {
+    width: 350px;
+    height: 500px;
+}
+
+.adduser button {
+    padding: 5px;
+    margin: 15px;
+    margin-right: 75px;
+}
