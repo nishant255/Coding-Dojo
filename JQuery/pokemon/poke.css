@@ -1,0 +1,28 @@
+.wrapper {
+    display: block;
+
+}
+#pokemonimg {
+    width: 75%;
+    height: auto;
+    display: inline-block;
+}
+
+.pokeinfo {
+    width: 15%;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    position: fixed;
+    float: right;
+    border: 50px solid red;
+    padding: 10px;
+}
+
+.pokeinfo h1 {
+    text-align: center;
+}
+
+.pokeinfo p {
+    display: inline;
+}
